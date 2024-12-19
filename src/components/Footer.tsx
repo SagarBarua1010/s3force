@@ -11,7 +11,7 @@ import { GoDotFill } from "react-icons/go";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-gray-600 text-white py-10">
+    <div className="bg-gradient-to-b from-gray-900 to-gray-600 text-white py-8">
       <Container className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 items-center">
         <div className="flex flex-col gap-y-5">
           <Link href={"/"} className="flex">
@@ -25,7 +25,7 @@ const Footer = () => {
             solutions to drive innovation and user adoption.
           </h1>
         </div>
-        <div className="flex flex-col gap-1 pt-3 ">
+        <div className="flex flex-col gap-1 pt-3  ">
           <h2 className="text-[20px] md:text-[25px] font-bold">Information</h2>
           {navigation?.map((item) => (
             <Link
