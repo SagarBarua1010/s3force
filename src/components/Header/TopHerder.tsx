@@ -23,7 +23,7 @@ const TopHerder = () => {
           <div className=" hidden md:block text-xs md:text-sm font-medium  gap-5 ">
             {navigation?.map((item) => (
               <Link
-                className="hover:bg-[#9333ea] hover:text-black rounded-lg p-2"
+                className="hover:bg-[#9333ea] hover:text-black rounded-lg p-4"
                 key={item?.title}
                 href={item?.href}
               >
